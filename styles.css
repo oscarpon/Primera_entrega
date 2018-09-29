@@ -1,13 +1,17 @@
 #cabecera{
   text-align: center;
-  background-color: #883d9c;
+  background-color: #90A4AE;
   margin-top: 0;
   font-size: 100%;
+  display: block
+}
 
-
-
+.bar{
+  text-align: right;
 }
 h1{
+  font-size: 25px;
+  font-family:  Helvetica;
   margin-top: inherit;
 }
 
