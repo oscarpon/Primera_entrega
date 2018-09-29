@@ -1,0 +1,18 @@
+#cabecera{
+  text-align: center;
+  background-color: #883d9c;
+  margin-top: 0;
+  font-size: 100%;
+
+
+
+}
+h1{
+  margin-top: inherit;
+}
+
+body{
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: inherit;
+}
