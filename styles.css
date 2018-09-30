@@ -26,13 +26,13 @@ body{
   margin: 5px;
 }
 h1{
-  font-size: 25px;
+  font-size: 30px;
   margin: 0;
-  font-family:  Helvetica;
+  font-family: 'Permanent Marker', cursive;
   margin-top: inherit;
   text-transform: uppercase;
   color: white;
-  padding: 8px;
+  padding: 4px;
 }
 
 
