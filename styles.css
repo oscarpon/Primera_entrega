@@ -1,19 +1,35 @@
+body{
+  font-family: Helvetica;
+}
 #cabecera{
   text-align: center;
-  background-color: #90A4AE;
-  margin-top: 0;
+  background-color: #9E9E9E;
+  margin: 0;
   font-size: 100%;
   display: block
+
 }
 
 .bar{
   text-align: right;
+  background-color: #F5F5F5;
+  width: 100%;
+  padding-top: 5px;
+
+}
+
+.bar a{
+  text-decoration: none;
+  margin: 5px;
 }
 h1{
   font-size: 25px;
+  margin: 0;
   font-family:  Helvetica;
   margin-top: inherit;
 }
+
+
 
 body{
   margin-left: inherit;
