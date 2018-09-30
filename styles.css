@@ -40,21 +40,29 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  width: ;
+  /*overflow: hidden;*/
   background-color: #333137;
 }
 li{
-  float:left;
+  width: 20%;
 }
 
 li a{
   color: white;
-  display: inline-block;
+  display: block;
   font-size: 18px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 32px;
   text-decoration: none;
 }
 li a:hover{
   background-color: #3d3b41;
+}
+
+#menu{
+  background-color: red;
+  width: 20%;
+  float: left;
+  height: 7000px;
 }
