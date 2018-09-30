@@ -3,16 +3,19 @@ body{
 }
 #cabecera{
   text-align: center;
-  background-color: #9E9E9E;
+  background-color: #0f3da2;
   margin: 0;
   font-size: 100%;
-  display: block
+  display: block;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+
 
 }
 
 .bar{
   text-align: right;
-  background-color: #F5F5F5;
+  background-color: #4781c6;
   width: 100%;
   padding-top: 5px;
 
@@ -27,7 +30,7 @@ h1{
   margin: 0;
   font-family:  Helvetica;
   margin-top: inherit;
-  
+
 }
 
 
