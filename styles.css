@@ -30,7 +30,9 @@ h1{
   margin: 0;
   font-family:  Helvetica;
   margin-top: inherit;
-
+  text-transform: uppercase;
+  color: white;
+  padding: 8px;
 }
 
 
