@@ -3,7 +3,7 @@ body{
 }
 #cabecera{
   text-align: left;
-  background-color: #0f3da2;
+  background-color: #9213B2;
   margin: 0;
   font-size: 100%;
   display: block;
@@ -13,7 +13,7 @@ body{
 
 .bar{
   text-align: right;
-  background-color: #0f3da2;
+  background-color: #9213B2;
   width: 100%;
   padding-top: 5px;
   display: block;
@@ -30,7 +30,7 @@ h1{
   font-family: 'Permanent Marker', cursive;
   margin-top: inherit;
   text-transform: uppercase;
-  color: white;
+  color: #FFB500;
   padding: 4px;
 
 }
@@ -47,14 +47,14 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0f3da2;
+  background-color: #9213B2;
 
 }
 li{
   float:left;
 }
  li a{
-  color: white;
+  color: #FFB500;
   display: inline-block;
   font-size: 18px;
   text-align: center;
@@ -63,5 +63,5 @@ li{
   margin-left: 1em;
 }
 li a:hover{
-  background-color: #3d3b41;
+  background-color: #CB01FF;
 }
