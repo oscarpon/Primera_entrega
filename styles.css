@@ -2,22 +2,21 @@ body{
   font-family: Helvetica;
 }
 #cabecera{
-  text-align: center;
+  text-align: left;
   background-color: #0f3da2;
   margin: 0;
   font-size: 100%;
   display: block;
-  border-bottom-style: solid;
-  border-bottom-color: red;
-
+  padding-left: 2em;
 
 }
 
 .bar{
   text-align: right;
-  background-color: #4781c6;
+  background-color: #0f3da2;
   width: 100%;
   padding-top: 5px;
+  display: block;
 
 }
 
@@ -33,6 +32,7 @@ h1{
   text-transform: uppercase;
   color: white;
   padding: 4px;
+
 }
 
 
@@ -46,29 +46,22 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: ;
-  /*overflow: hidden;*/
-  background-color: #333137;
+  overflow: hidden;
+  background-color: #0f3da2;
+
 }
 li{
-  width: 20%;
+  float:left;
 }
-
-li a{
+ li a{
   color: white;
-  display: block;
+  display: inline-block;
   font-size: 18px;
   text-align: center;
-  padding: 16px 32px;
+  padding: 14px 16px;
   text-decoration: none;
+  margin-left: 1em;
 }
 li a:hover{
   background-color: #3d3b41;
-}
-
-#menu{
-  background-color: red;
-  width: 20%;
-  float: left;
-  height: 7000px;
 }
