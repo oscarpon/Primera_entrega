@@ -77,7 +77,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
 </div>
 </div>
 
-<form id="form-add" class="form">
+<form id="form-add" >
   <fieldset>
     <legend>Darse de alta</legend>
 
@@ -117,6 +117,94 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
     <input type="text" id="titulacionuser" size="50" maxlength="50">
 <br>
     <input type="image" src="img/save.png" alt="save" width="30" height="30">
+
+
+  </fieldset>
+
+</form>
+
+<form id="form-search">
+  <fieldset>
+    <legend>Búsqueda</legend>
+
+    <label for="login">Login: </label>
+    <input type="text" id="login" size="25" maxlength="25">
+
+
+    <label for="fechanacuser">Fecha de nacimiento</label>
+    <input type="date" id="fechanacuser">
+
+    <label for="grupopracticas">Grupo de prácticas</label>
+    <select>
+
+      <option value="IU1">IU1</option>
+      <option value="IU2">IU2</option>
+      <option value="IU3">IU3</option>
+      <option value="IU4">IU4</option>
+      <option value="IU5">IU5</option>
+      <option value="IU6">IU6</option>
+    </select>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" size="50" maxlength="50">
+
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" size="25" maxlength="25">
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" size="50" maxlength="50">
+
+    <label for="curso">Curso:</label>
+    <input type="text" id="curso" size="1" maxlength="1">
+
+    <label for="titulacionuser">Titulación:</label>
+    <input type="text" id="titulacionuser" size="50" maxlength="50">
+<br>
+    <input type="image" src="img/lupa.png" alt="save" width="30" height="30">
+
+
+  </fieldset>
+
+</form>
+
+<form id="form-edit">
+  <fieldset>
+    <legend>Formulario EDIT</legend>
+
+    <label for="login">Login: </label>
+    <input type="text" id="login" size="25" maxlength="25" value="user1" readonly>
+
+
+    <label for="fechanacuser">Fecha de nacimiento</label>
+    <input type="date" id="fechanacuser">
+
+    <label for="grupopracticas">Grupo de prácticas</label>
+    <select>
+
+      <option value="IU1">IU1</option>
+      <option value="IU2">IU2</option>
+      <option value="IU3">IU3</option>
+      <option value="IU4">IU4</option>
+      <option value="IU5">IU5</option>
+      <option value="IU6">IU6</option>
+    </select>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" size="50" maxlength="50" value="example1@mail.com">
+
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" size="25" maxlength="25" value="Juan">
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" size="50" maxlength="50" value="Pérez de la Morena">
+
+    <label for="curso">Curso:</label>
+    <input type="text" id="curso" size="1" maxlength="1" value="3">
+
+    <label for="titulacionuser">Titulación:</label>
+    <input type="text" id="titulacionuser" size="50" maxlength="50"  value="Ingeniería Informática">
+<br>
+    <input type="image" src="img/edit.png" alt="save" width="30" height="30">
 
 
   </fieldset>

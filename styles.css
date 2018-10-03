@@ -183,6 +183,8 @@ form{
   margin-right: auto;
   background-color: white;
   border-top: 4px solid #6B0DFF;
+  border-radius: 8px;
+  margin-top: 5em;
 }
 
 form label{
