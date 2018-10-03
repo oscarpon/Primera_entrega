@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <title>Document</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
   <h1>Mi primera web</h1>
   <div class="bar">
     <a href="#user">
-      <img src="img/usuario.png" alt="user" height="24px" width="24px">
+      <i class="fas fa-user icon-white icon_24"></i>
     </a>
     <label class="id_user">Usuario: xxxxxx</label>
     <a href="#united_kingdom">
@@ -24,20 +25,28 @@
       <img src="img/spain.png" alt="spanish" height="24px" width="24px">
     </a>
     <a href="#logout">
-      <img src="img/logout.png" alt="logout" height="24px" width="24px">
+      <i class="fas fa-sign-out-alt icon-white icon_24"></i>
     </a>
   </div>
 </div>
 <nav id="menu">
   <ul>
-    <li><a href="#">Inicio</a></li>
+    <li id="inicio"><a href="#">Inicio</a></li>
     <li><a href="#">About</a></li>
     <li><a href="Ejercicio1.html">Noticia</a></li>
     <li><a href="https://www.google.es/">Buscar</a></li>
     <li><a href="#">Contacto</a></li>
+    <li class="dropdown"><a href="javascript:void(0)" class="dropboton">Desplegable</a>
+      <div class="dropdown-content">
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+      </div>
+    </li>
   </ul>
   </div>
 </nav>
+
 
 </body>
 </html>
