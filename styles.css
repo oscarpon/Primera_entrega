@@ -1,3 +1,15 @@
+/**
+
+RUEDA CROMATICA:
+#6B0DFF
+#250CE8
+#0027FF
+#0C67E8
+#0DB1FF
+
+*/
+
+
 body{
   font-family: Helvetica;
   margin-left: inherit;
@@ -6,11 +18,9 @@ body{
   background-color: #0DB1FF;
 }
 #cabecera{
-  text-align: left;
   background-color: #250CE8;
   margin: 0;
   font-size: 100%;
-  display: block;
   padding-right: 2%;
 }
 #title{
@@ -115,9 +125,62 @@ h1{
   margin-left: 20%;
   margin-right: 20%;
   background-color: red;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-#img-lorem{
+#img-wifi{
   float: left;
   padding-right: 5px;
+  padding-bottom: 10px;
+}
+p.clear{
+  clear:left;
+}
+
+/*Sirve para alinear el boton de saber más a la derecha*/
+.buton_more{
+  text-align: right;
+}
+
+/*sirve para el diseño del boton saber más*/
+.saber_mas{
+  text-decoration: none;
+  background-color: #6B0DFF;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+/*Lo que hace la siguiente linea es poner un espacio
+entre la zona de texto y los forms*/
+.text-zone{
+  padding-bottom: 2em;
+}
+legend{
+  font-size: 24px;
+}
+fieldset{
+  border: none;
+}
+input, select{
+  padding: 8px;
+  border: none;
+  border-bottom: 2px solid #6B0DFF;
+  background-color: white;
+}
+
+form{
+  font-size: 14px;
+  color: #6B0DFF;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top: 4px solid #6B0DFF;
+}
+
+form label{
+  display: block;
+  margin-top: 12px;
 }
