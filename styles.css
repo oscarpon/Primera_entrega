@@ -15,6 +15,7 @@ body{
   margin-left: inherit;
   margin-right: inherit;
   margin-top: inherit;
+  margin-bottom: inherit;
   background-color:#0DB1FF;
 }
 #cabecera{
@@ -137,10 +138,14 @@ h1{
   float: left;
   padding-right: 5px;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 p.clear{
 
   clear:left;
+}
+p{
+  padding-top: 10px;
 }
 
 /*Sirve para alinear el boton de saber más a la derecha*/
@@ -211,25 +216,55 @@ form input[type=image]{
 }
 
 /*Diseño de tablas*/
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 table, th, td{
   border: 2px solid #6B0DFF;
   border-collapse: collapse;
   padding: 4px;
+  background-color: white;
 }
 
 table th{
   background-color:#6B0DFF;
   color: white;
+
 }
 .showall{
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid #6B0DFF;
+  margin-bottom: 4%;
 }
 
 .iconos_tabla a{
   text-decoration: none;
   padding: 8px;
+}
+
+.tabcudel{
+  margin-left: 21%;
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+/*Diseño de iconos inferior tabla*/
+.iconos_tabla_inf{
+  margin-left: 21%;
+  margin-bottom: 4%;
+}
+
+/*Diseño de footer*/
+footer{
+  text-align: center;
+  background-color: #E1E1E1;
+  width: 100%;
+  color: black;
+  font-size: 1.5em;
+  font-family: courier;
+  margin: 0;
+}
+#footer{
+  margin: 0;
+  padding: 0.5%;
 }
