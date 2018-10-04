@@ -15,7 +15,7 @@ body{
   margin-left: inherit;
   margin-right: inherit;
   margin-top: inherit;
-  background-color: #0DB1FF;
+  background-color:#0DB1FF;
 }
 #cabecera{
   background-color: #250CE8;
@@ -128,7 +128,7 @@ h1{
 .container{
   margin-left: 20%;
   margin-right: 20%;
-  background-color: red;
+  background-color:;
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -182,9 +182,10 @@ form{
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  border-top: 4px solid #6B0DFF;
+  border: 4px solid #6B0DFF;
   border-radius: 8px;
   margin-top: 5em;
+
 }
 
 form label{
@@ -196,4 +197,39 @@ form input[type=image]{
   margin-top: 2em;
   margin-left: 50%;
   margin-right: 50%;
+}
+
+/*diseño de iconos superior tabla showall*/
+.iconos_tabla_sup{
+  margin-top: 7em;
+  margin-left: 19%;
+  margin-bottom: 2%;
+}
+.iconos_tabla_sup a{
+  text-decoration: none;
+  margin: 10px;
+}
+
+/*Diseño de tablas*/
+
+table, th, td{
+  border: 2px solid #6B0DFF;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+table th{
+  background-color:#6B0DFF;
+  color: white;
+}
+.showall{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #6B0DFF;
+}
+
+.iconos_tabla a{
+  text-decoration: none;
+  padding: 8px;
 }
