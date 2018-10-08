@@ -258,11 +258,11 @@ table th{
 /*Diseño de footer*/
 footer{
   text-align: center;
-  background-color: #E1E1E1;
+  background-color: #250CE8;
   width: 100%;
-  color: black;
+  color: white;
   font-size: 1.5em;
-  font-family: courier;
+  font-family: Helvetica;
   margin: 0;
 }
 #footer{
