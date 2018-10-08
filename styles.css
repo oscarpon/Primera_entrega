@@ -204,6 +204,9 @@ form input[type=image]{
   margin-left: 50%;
   margin-right: 50%;
 }
+form input[type=date]:focus{
+
+}
 
 /*diseño de iconos superior tabla showall*/
 .iconos_tabla_sup{
@@ -217,19 +220,19 @@ form input[type=image]{
 }
 
 /*Diseño de tablas*/
-table{
+.tabcudel, .showall{
   margin-left: auto;
   margin-right: auto;
 }
 
-table, th, td{
+.tabcudel, .showall, .tabcudel th, .showall th, .tabcudel td, .showall td{
   border: 2px solid #6B0DFF;
   border-collapse: collapse;
   padding: 4px;
   background-color: white;
 }
 
-table th{
+.tabcudel th, .showall th{
   background-color:#6B0DFF;
   color: white;
 
