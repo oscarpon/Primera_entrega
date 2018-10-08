@@ -273,4 +273,7 @@ footer{
   padding: 0.5%;
 }
 
-/*Formularios responsive*/
+/*texto del calendario*/
+#datepicker th{
+  background-color: red;
+}

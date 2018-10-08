@@ -9,13 +9,19 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $(function() {
-  $( "#datepicker" ).datepicker();
-  $( "#datepicker" ).attr( 'readonly', 'true');
+  $( ".other_datepicker" ).attr( 'readonly', 'true');
+  $(".other_datepicker").datepicker({
+changeMonth: true,
+changeYear: true,
+yearRange: "1900:2018",
+firstDay: 1,
+dateFormat: 'dd/mm/yy'
+});
   });
   </script>
   <title>Tus Noticias</title>
@@ -99,7 +105,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
     <input type="password" id="password" size="20" maxlength="20">
 
     <label for="fechanacuser">Fecha de nacimiento</label>
-    <input type="text" id="datepicker">
+    <input type="text" id="date" class="other_datepicker">
 
     <label for="grupopracticas">Grupo de prácticas</label>
     <select>
@@ -142,7 +148,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
 
 
     <label for="fechanacuser">Fecha de nacimiento</label>
-    <input type="date" id="fechanacuser">
+    <input type="text" id="date_search" class="other_datepicker">
 
     <label for="grupopracticas">Grupo de prácticas</label>
     <select>
@@ -186,7 +192,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
 
 
     <label for="fechanacuser">Fecha de nacimiento</label>
-    <input type="date" id="fechanacuser" value="2018-10-05">
+    <input type="text" id="datepicker" class="other_datepicker" value="16/11/1995">
 
     <label for="grupopracticas">Grupo de prácticas</label>
     <select>
