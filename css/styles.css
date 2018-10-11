@@ -11,7 +11,7 @@ Fecha: 04/10/2018 */
 #FFFFFF
 */
 
-
+/*Aspectos generales del body*/
 body{
   font-family: Helvetica;
   margin-left: inherit;
@@ -20,12 +20,7 @@ body{
   margin-bottom: inherit;
   background-color:#0DB1FF;
 }
-#cabecera{
-  background-color: #250CE8;
-  margin: 0;
-  font-size: 100%;
-  padding-right: 2%;
-}
+/*Diseño del titulo*/
 #title{
   font-size: 30px;
   margin: 0;
@@ -35,23 +30,30 @@ body{
   color: #FFFFFF;
   padding-left: 2%;
 }
+h1{
+  text-align: center;
+}
+/*Barra debajo del título*/
+#cabecera{
+  background-color: #250CE8;
+  margin: 0;
+  font-size: 100%;
+  padding-right: 2%;
+}
 
+/*Color iconos de user y logout*/
 .icon-white{
   color: white;
 }
+/*Indica el tamaño de los iconos logout y user*/
 .icon_24{
   font-size: 24px;
 }
-
-.icon_30{
-  font-size: 30px;
-}
-
+/*Color del texto de usuario*/
 .id_user{
   color: white;
-
 }
-
+/*Diseño de zona de logout, idioma y user*/
 .bar{
   text-align: right;
   background-color: #250CE8;
@@ -59,12 +61,12 @@ body{
   padding-top: 5px;
   display: block;
 }
-
+/*Esto quita el diseño que hay entre los enlaces, guion negro entre idiomas*/
 .bar a{
   text-decoration: none;
   margin: 5px;
 }
-
+/*Aquí empieza el menú*/
 #inicio{
   padding-left: 2%;
 }
@@ -119,15 +121,18 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/*Aquí acaba el menú*/
+/*Linea blanca separando el menu del body*/
 #menu{
   border-bottom: solid 2px;
   border-color: white;
 }
-
-h1{
+/*Diseño del titulo de la noticia*/
+h2{
   text-align: center;
+  color: #6B0DFF;
 }
+/*Delimitamos el espacio del container*/
 .container{
   margin-left: 20%;
   margin-right: 20%;
@@ -135,17 +140,18 @@ h1{
   padding-left: 3%;
   padding-right: 3%;
 }
-
+/*Imagen en párrafos, flotando a la izquierda*/
 #img-wifi{
   float: left;
   padding-right: 5px;
   padding-bottom: 10px;
   padding-top: 10px;
 }
+/*Limpieamos el float para que el último párrafo esté debajo de la imagen*/
 p.clear{
-
   clear:left;
 }
+/*Separación entre párrafos*/
 p{
   padding-top: 10px;
 }
@@ -169,6 +175,7 @@ entre la zona de texto y los forms*/
 .text-zone{
   padding-bottom: 2em;
 }
+/*Diseño de los formularios*/
 legend{
   font-size: 24px;
 }
@@ -181,7 +188,7 @@ input, select{
   border-bottom: 2px solid #6B0DFF;
   background-color: white;
 }
-
+/*Con la línea min-width indicamos el tamaño mínimo que puede tomar el formulario*/
 form{
   font-size: 14px;
   color: #6B0DFF;
@@ -195,19 +202,16 @@ form{
   box-sizing: border-box;
   min-width: 450px;
 }
-
 form label{
   display: block;
   margin-top: 12px;
 }
+/*Esto alinea la imagen de cada imagen en el centro*/
 form input[type=image]{
   border: none;
   margin-top: 2em;
   margin-left: 50%;
   margin-right: 50%;
-}
-form input[type=date]:focus{
-
 }
 
 /*diseño de iconos superior tabla showall*/
@@ -245,13 +249,17 @@ form input[type=date]:focus{
 
 .iconos_tabla a{
   text-decoration: none;
-  padding: 8px;
+  padding: 4px;
 }
 
 .tabcudel{
   margin-left: 21%;
   text-align: left;
   margin-bottom: 1%;
+}
+/*Indica el tamaño minimo de las celdas para evitar descolocar los iconos*/
+.showall td{
+  min-width: 100px;
 }
 
 /*Diseño de iconos inferior tabla*/
@@ -273,9 +281,4 @@ footer{
 #footer{
   margin: 0;
   padding: 0.5%;
-}
-
-/*texto del calendario*/
-#datepicker th{
-  background-color: red;
 }
