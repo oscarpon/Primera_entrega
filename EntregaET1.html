@@ -15,6 +15,7 @@ Fecha: 04/10/2018
   <link rel="stylesheet" href="css/jquery-ui.min.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--Con este scrip lo que hacemos es configurar el datepicker de jquery-->
   <script>
   $(function() {
   $( ".other_datepicker" ).attr( 'readonly', 'true');
@@ -30,7 +31,7 @@ dateFormat: 'dd/mm/yy'
   <title>Tus Noticias</title>
 </head>
 <body>
-
+<!--Inicio de la cabecera-->
 <div id="cabecera">
   <h1 id="title">Tus Noticias</h1>
   <div class="bar">
@@ -49,6 +50,8 @@ dateFormat: 'dd/mm/yy'
     </a>
   </div>
 </div>
+<!--Fin de la cabecera-->
+<!--Comienzo del menu con anclas y desplegable-->
 <nav id="menu">
   <ul>
     <li id="inicio"><a href="#">Inicio</a></li>
@@ -66,9 +69,11 @@ dateFormat: 'dd/mm/yy'
   </ul>
   </div>
 </nav>
-
+<!--Fin del menú-->
+<!--Creamos un div contenedor para que todos los elementos estén dentro
+de ese contenedor-->
 <div class="container">
-
+<!--Comienzo de la zona de texto. Tres párrafos e imagen-->
 <div class="text-zone">
 <h1>Nueva versión WiFi en 2019</h1>
 <p>
@@ -91,13 +96,13 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
   nomenclatura que identifica las generaciones de la conexión inalámbrica
   mediante una secuencia numérica que corresponde a los principales avances en
   el WiFi. </p>
-
+<!--Creamos un enlace para ir a la noticia completa-->
 <div class="buton_more">
 <a href="https://computerhoy.com/noticias/tecnologia/proxima-version-wifi-llamara-wifi-6-llegara-2019-310465" class="saber_mas">Ir a la noticia</a>
-</div>
-</div>
+</div><!--Fin del enlace-->
+</div><!--Fin de la zona de texto-->
 
-<form id="form-add" >
+<form id="form-add" ><!--Formulario ADD-->
   <fieldset>
     <legend>Darse de alta</legend>
 
@@ -136,13 +141,10 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
     <input type="text" id="titulacionuser" size="50" maxlength="50" required>
 <br>
     <input type="image" src="img/mas.png" alt="add" width="30" height="30">
-
-
   </fieldset>
-
 </form>
 
-<form id="form-search">
+<form id="form-search"><!--Formulario Search-->
   <fieldset>
     <legend>Búsqueda</legend>
 
@@ -180,13 +182,11 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
     <input type="text" id="titulacionuser" size="50" maxlength="50">
 <br>
     <input type="image" src="img/lupa.png" alt="save" width="30" height="30">
-
-
   </fieldset>
 
 </form>
 
-<form id="form-edit">
+<form id="form-edit"><!--Formulario EDIT-->
   <fieldset>
     <legend>Formulario EDIT</legend>
 
@@ -227,7 +227,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
   </fieldset>
 </form>
 
-<div class="iconos_tabla_sup" id="tablas">
+<div class="iconos_tabla_sup" id="tablas"><!--Inserta lo iconos superiores de la tabla showall-->
   <a href="#add">
          <img src="img/mas.png" alt="add" height="50px" width="50px"/>
        </a>
@@ -236,6 +236,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
       </a>
 </div>
 
+<!--Tabla showall-->
 <table class="showall">
   <tr>
     <th>Login</th>
@@ -303,6 +304,7 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
   </tr>
 </table>
 
+<!--Tabla de confirmación de borrado-->
 <table class="tabcudel" id="delete">
  <tr>
    <th>Login:</th>
@@ -341,13 +343,14 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
    <td>123456</td>
  </tr>
 </table>
-
+<!--Icono de cubo de basura para confirmar borrado-->
 <div class="iconos_tabla_inf" id="tablas">
       <a href="#delete">
         <img src="img/basura.png" alt="search" height="50px" width="50px"/>
       </a>
 </div>
 
+<!--Tabla showcurrent-->
 <table class="tabcudel" id="showcurrent">
  <tr>
    <th>Login:</th>
@@ -386,14 +389,16 @@ conocida como WiFi 6 en lugar de WiFi 802.11ax.
    <td>123456</td>
  </tr>
 </table>
+<!--Icono para retroceder-->
 <div class="iconos_tabla_inf" id="tablas">
       <a href="#return">
-        <img src="img/return.png" alt="search" height="50px" width="50px"/>
+        <img src="img/return.png" alt="return" height="50px" width="50px"/>
       </a>
 </div>
 
 </div>
 
+<!--Footer con el alias y la fecha de creación-->
 <footer>
 <p id="footer">Usuario: nc91xe 04/10/2018</p>
 </footer>
